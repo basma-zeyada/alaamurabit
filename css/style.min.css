@@ -117,7 +117,7 @@ hr {
 }
 
 a:focus,a:hover {
-    color: #947e38;
+    color: #1A2D55;
     text-decoration: none;
     outline: 0
 }
@@ -2136,11 +2136,15 @@ input#email,input#first,input#last,input#subject, textarea#message, .connectForm
     padding: 10px 12px;
 }
 
-.internContent, .leadershipContent {
+.internContent, .leadershipContent, .newsletterContent {
     padding: 20px;
     position: relative;
     background-color: #fff;
     border-top: 1px solid #ddd;
+}
+
+.newsletterContent{
+	min-height: 60vh;
 }
 
 .leadershipCard {
@@ -2234,6 +2238,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#253a56', end
 .check-list .fa-check{
 	margin-right: 10px;
 	font-size: 14px;
+}
+
+.newsletter-img {
+	width: 50%;
+	margin: 0 auto 10px;
+}
+
+.newsletter-card {
+	min-height: 120px;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 20px 0;
 }
 
 @media all and (min-width: 768px) {
