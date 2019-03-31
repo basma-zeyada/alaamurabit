@@ -2083,7 +2083,7 @@ input#email,input#first,input#last,input#subject, textarea#message, .connectForm
 .currentInternContent {
 	background-color: #fff;
 	position: relative;
-	margin-top: 160px;
+	margin-top: 210px;
 	z-index: 10;
 }
 
